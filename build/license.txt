@@ -1,0 +1,145 @@
+SONICMASTER MUSIC PLAYER
+END USER LICENSE AGREEMENT (EULA)
+Version 1.0.0 | Effective Date: 2026
+
+PLEASE READ THIS AGREEMENT CAREFULLY BEFORE INSTALLING OR USING SONICMASTER.
+BY INSTALLING OR USING THIS APPLICATION, YOU AGREE TO BE BOUND BY THE TERMS
+OF THIS AGREEMENT. IF YOU DO NOT AGREE, DO NOT INSTALL OR USE THE APPLICATION.
+
+------------------------------------------------------------------------
+
+1. PARTIES AND AGREEMENT
+
+This End-User License Agreement ("Agreement") is a legally binding contract
+between you (either an individual or a single legal entity, referred to as
+"You" or "User") and the SonicMaster Team ("Licensor") governing your use
+of the SonicMaster Music Player application ("Application").
+
+------------------------------------------------------------------------
+
+2. GRANT OF LICENSE
+
+Subject to your compliance with this Agreement, SonicMaster Team grants you
+a limited, revocable, non-exclusive, non-transferable, personal license to:
+
+  a) Download and install one copy of the Application on your device(s).
+  b) Use the Application solely for your personal, non-commercial purposes.
+  c) Make one backup copy of the Application for archival purposes only.
+
+------------------------------------------------------------------------
+
+3. RESTRICTIONS
+
+You shall NOT, and shall not permit any third party to:
+
+  a) Sell, sublicense, rent, lease, lend, or transfer the Application or
+     any rights therein to any third party.
+  b) Modify, adapt, translate, or create derivative works based upon the
+     Application.
+  c) Reverse engineer, disassemble, decompile, decode, or otherwise attempt
+     to derive the source code of the Application.
+  d) Remove, alter, or obscure any proprietary notices, labels, or marks
+     on the Application.
+  e) Use the Application for any unlawful purpose or in violation of any
+     applicable local, national, or international law or regulation.
+  f) Use the Application to infringe upon the intellectual property or
+     privacy rights of any third party.
+
+------------------------------------------------------------------------
+
+4. INTELLECTUAL PROPERTY
+
+The Application, including but not limited to its source code, object code,
+design, structure, graphics, user interface, audio components, algorithms,
+and all documentation, is the exclusive property of SonicMaster Team and is
+protected by copyright law, international treaties, and other applicable
+intellectual property laws.
+
+No title or ownership of the Application or any intellectual property rights
+therein is transferred to you under this Agreement. All rights not expressly
+granted herein are reserved by SonicMaster Team.
+
+------------------------------------------------------------------------
+
+5. THIRD-PARTY COMPONENTS
+
+The Application may include open-source or third-party components that are
+subject to their own separate license terms. Your use of such components is
+governed by their respective licenses. SonicMaster Team makes no warranty
+with respect to such third-party components.
+
+------------------------------------------------------------------------
+
+6. PRIVACY
+
+The Application may collect limited anonymous usage data to improve
+performance and user experience. No personally identifiable information is
+collected without your explicit consent. For full details, please refer to
+our Privacy Policy at: https://sonicmaster.prefenzotechnologies.com/privacy
+
+------------------------------------------------------------------------
+
+7. DISCLAIMER OF WARRANTIES
+
+THE APPLICATION IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY
+OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND
+NON-INFRINGEMENT.
+
+SONICMASTER TEAM DOES NOT WARRANT THAT:
+  - THE APPLICATION WILL MEET YOUR REQUIREMENTS.
+  - THE APPLICATION WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE.
+  - ANY ERRORS OR DEFECTS IN THE APPLICATION WILL BE CORRECTED.
+
+------------------------------------------------------------------------
+
+8. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL
+SONICMASTER TEAM BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
+CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF
+DATA, LOSS OF PROFITS, OR LOSS OF GOODWILL, ARISING OUT OF OR RELATED TO
+YOUR USE OF OR INABILITY TO USE THE APPLICATION, EVEN IF SONICMASTER TEAM
+HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+------------------------------------------------------------------------
+
+9. TERMINATION
+
+This Agreement is effective from the date you first install or use the
+Application and shall continue until terminated.
+
+SonicMaster Team may terminate this Agreement immediately and without notice
+if you breach any provision of this Agreement. Upon termination, you must
+immediately cease all use of the Application and destroy all copies in your
+possession.
+
+Sections 4, 7, 8, and 10 shall survive termination of this Agreement.
+
+------------------------------------------------------------------------
+
+10. GOVERNING LAW
+
+This Agreement shall be governed by and construed in accordance with
+applicable law, without regard to conflict of law principles. Any disputes
+arising under this Agreement shall be subject to the exclusive jurisdiction
+of the competent courts.
+
+------------------------------------------------------------------------
+
+11. ENTIRE AGREEMENT
+
+This Agreement constitutes the entire agreement between you and SonicMaster
+Team with respect to the Application and supersedes all prior or
+contemporaneous understandings, communications, or agreements, whether
+written or oral, relating to its subject matter.
+
+If any provision of this Agreement is held to be unenforceable, that
+provision shall be modified to the minimum extent necessary to make it
+enforceable, and the remaining provisions shall continue in full force.
+
+------------------------------------------------------------------------
+
+Copyright (c) 2024 SonicMaster Team. All rights reserved.
+
+For support or inquiries, visit: https://sonicmaster.prefenzotechnologies.com

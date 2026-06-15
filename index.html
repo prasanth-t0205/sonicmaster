@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/public/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SonicMaster</title>
+    <script>
+      (function() {
+        try {
+          const stored = localStorage.getItem("sonicmaster_settings");
+          if (stored) {
+            const settings = JSON.parse(stored);
+            const color = settings.customAccentColor || settings.accentColor;
+            if (color) {
+              document.documentElement.style.setProperty("--primary", color);
+            }
+            if (settings.themeMode === "dark") {
+              document.documentElement.classList.add("dark");
+            } else {
+              document.documentElement.classList.remove("dark");
+            }
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="overflow-hidden bg-background text-foreground">
+    <!-- STATIC INITIAL LOADING SPLASH SCREEN (FADE CONTROLLER REMOVES THIS ONCE REACT MOUNTS) -->
+    <div id="initial-loader" style="position: fixed; inset: 0; height: 100vh; width: 100vw; z-index: 9999; display: flex; align-items: center; justify-content: center; background-color: #0C0C0C; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; transition: opacity 0.8s ease-in-out;">
+      <div style="display: flex; flex-direction: row; align-items: center; gap: 32px;">
+        <!-- Icon with Gradient Ring -->
+        <div style="width: 80px; height: 80px; border-radius: 16px; background: linear-gradient(135deg, #f97316, #ec4899, #8b5cf6); padding: 2px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);">
+          <div style="width: 100%; height: 100%; border-radius: 14px; background-color: #1A1A1A; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+            <img src="/icon.png" alt="SonicMaster Icon" style="width: 48px; height: 48px; object-fit: contain;" />
+          </div>
+        </div>
+        <!-- App Branding -->
+        <div style="display: flex; flex-direction: column;">
+          <h2 style="color: #ffffff; font-size: 48px; font-weight: 900; letter-spacing: -0.05em; text-transform: uppercase; margin: 0; line-height: 1;">
+            Sonic<span style="color: var(--primary, #f97316);">Master</span>
+          </h2>
+          <div style="display: flex; align-items: center; gap: 12px; margin-top: 8px;">
+            <div style="height: 1px; width: 32px; background-color: rgba(249, 115, 22, 0.4);"></div>
+            <p style="color: rgba(255, 255, 255, 0.2); font-size: 9px; font-weight: 900; margin: 0; letter-spacing: 0.6em; text-transform: uppercase;">
+              Studio Engine
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
