@@ -47,8 +47,6 @@ const AppLayoutContent = ({ children }: { children: React.ReactNode }) => {
   const fileParam = searchParams.get("file");
   const hasHandledStartup = useRef(false);
 
-  const [appVersion, setAppVersion] = useState("");
-
   // Dismiss the static initial loader once the React app mounts and renders
   useEffect(() => {
     const loader = document.getElementById("initial-loader");
@@ -171,27 +169,6 @@ const AppLayoutContent = ({ children }: { children: React.ReactNode }) => {
     const cleanup = window.electron.onPlayFile((path) => {
       handleFile(path);
     });
-
-    // 4. Check for Version Update (Changelog)
-    if (window.electron.invoke) {
-      window.electron.invoke("get-app-version").then((version: string) => {
-        setAppVersion(version);
-        const lastSeenVersion = localStorage.getItem("last_seen_version");
-        if (lastSeenVersion && lastSeenVersion !== version) {
-          if ((window.electron as any)?.openExternal) {
-            (window.electron as any).openExternal(
-              "https://sonicmaster.prefenzotechnologies.com/changelog",
-            );
-          } else {
-            window.open(
-              "https://sonicmaster.prefenzotechnologies.com/changelog",
-              "_blank",
-            );
-          }
-        }
-        localStorage.setItem("last_seen_version", version);
-      });
-    }
 
     // 5. Force Reset Zoom & Prevent Shortcuts
     if (window.electron && window.electron.windowControls?.setZoomFactor) {

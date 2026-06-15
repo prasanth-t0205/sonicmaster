@@ -177,6 +177,7 @@
     "@types/react-dom": "^19",
     "@types/uuid": "^11.0.0",
     "@vitejs/plugin-react": "^6.0.2",
+    "app-builder-bin": "^4.2.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "concurrently": "^10.0.3",
